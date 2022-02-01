@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  background-color: #28223f;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.card_wrapper {
+  width: 350px;
+  margin: auto;
+  background-color: #231e39;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 2px 3px 15px 4px rgba(0, 0, 0, 0.36);
+}
+
+.card_Header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.card_Header > span {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: #febb0b;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  color: #222;
+}
+
+.card_Header img {
+  border-radius: 50%;
+  border: 2px solid #02bfcb;
+  padding: 6px;
+}
+
+.card_Header h3,
+h5,
+p div {
+  padding: 5px;
+}
+.card_Header p {
+  text-align: center;
+  width: 70%;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.card_Header .btn button {
+  background-color: #02bfcb;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  color: #222;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.btn button:hover {
+  background-color: #febb0b;
+}
+
+.skills__area {
+  background-color: #1f1a36;
+  padding: 1rem;
+}
+.skills__area .span__area {
+  margin-top: 10px;
+}
+.skills__area .span__area span {
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #808080;
+  margin: 3px;
+  border-radius: 5px;
+}
